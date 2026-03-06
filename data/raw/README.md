@@ -72,3 +72,11 @@
 脚本将输出：
 - `data/processed/city_panel_2000_2023.dta`
 - `data/processed/W_distance_300km.dta`
+
+
+## 自动化抓取辅助（新增）
+- 脚本：`scripts/fetch_raw_data.py`
+- 作用：尝试下载可直链资源；对需登录/订阅资源写入日志并给出官方入口。
+- 运行：`python scripts/fetch_raw_data.py`
+- 日志：`data/raw/logs/download_log_*.csv`
+- 详细说明：`data/raw/RAW_DATA_COLLECTION.md`

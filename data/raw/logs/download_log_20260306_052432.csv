@@ -1,0 +1,6 @@
+﻿id,url,target,status,detail,required,note
+city_centroid,https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json,data/raw/city_centroid.csv,exists,already exists (138 bytes),False,公开行政区划边界GeoJSON（用于提取地级市质心；本仓库已提供处理后city_centroid.csv）
+co2_city_year,https://www.ceads.net/data/city-inventory/,data/raw/co2_city_year.xlsx,manual,manual_download_required,True,CEADs城市碳排放数据页面（通常需人工选择并下载）
+household_size_city_year,https://data.cnki.net/Yearbook/Single/N2020100054,data/raw/household_size_city_year.xlsx,manual,manual_download_required,True,《中国城市统计年鉴》入口（通常需机构订阅）
+city_controls_2000_2023,https://data.cnki.net/Yearbook/Single/N2020100054,data/raw/city_controls_2000_2023.xlsx,manual,manual_download_required,True,城市统计年鉴入口（GDP、人口、产业结构等）
+mechanism_vars_city_year,https://data.cnki.net/Yearbook/,data/raw/mechanism_vars_city_year.xlsx,manual,manual_download_required,True,年鉴总入口（耐用品、交通、能源相关指标通常需分表下载）
